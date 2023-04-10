@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2923674575366799016
+--- !u!114 &-452599862846992639
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33,12 +33,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _HeightMap:
-        m_Texture: {fileID: 2800000, guid: 8375b33131e00b649bba54588e3bcac7, type: 3}
+        m_Texture: {fileID: 2800000, guid: e5b6bd8e95135d74e81ae6d5f05a38ce, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Heightmap2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 8375b33131e00b649bba54588e3bcac7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -59,11 +63,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BlendOp: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
     - _DisplacementAmount: 0.05
+    - _DstBlend: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RippleScale: 0.08
+    - _SampleGI: 0
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _ZWrite: 1
     m_Colors:
-    - _RipplesCenter: {r: 0.145, g: 0.019, b: 0.222, a: 0.22}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _RipplesCenter: {r: 0.050009996, g: 0.45009, b: 0, a: 0.22}
     - _WaveVelocity: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []

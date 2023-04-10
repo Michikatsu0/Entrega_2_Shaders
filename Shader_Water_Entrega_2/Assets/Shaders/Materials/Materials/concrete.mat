@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3936433823169923872
+--- !u!114 &-1275573202021528924
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water
+  m_Name: concrete
   m_Shader: {fileID: -6465566751694194690, guid: 6464fbeaf49d23548b1a15fc2165876e, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1ec70efc616c15246a2d93433fa0f45e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -64,6 +64,6 @@ Material:
     - _QueueOffset: 0
     - _RippleScale: 0
     m_Colors:
-    - _RipplesCenter: {r: 0, g: 0, b: 0, a: 0}
-    - _WaveVelocity: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _RipplesCenter: {r: 0, g: 0, b: 0, a: 1}
+    - _WaveVelocity: {r: 0.1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
