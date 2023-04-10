@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _HeightMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 8375b33131e00b649bba54588e3bcac7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Heightmap2:
@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1ec70efc616c15246a2d93433fa0f45e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -59,11 +59,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DisplacementAmount: 0
+    - _DisplacementAmount: 0.05
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RippleScale: 0
+    - _RippleScale: 0.08
     m_Colors:
-    - _RipplesCenter: {r: 0, g: 0, b: 0, a: 1}
-    - _WaveVelocity: {r: 0.1, g: 0, b: 0, a: 0}
+    - _RipplesCenter: {r: 0.145, g: 0.019, b: 0.222, a: 0.22}
+    - _WaveVelocity: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
