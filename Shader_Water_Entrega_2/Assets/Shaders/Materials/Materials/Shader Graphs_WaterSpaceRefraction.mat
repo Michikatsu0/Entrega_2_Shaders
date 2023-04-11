@@ -66,13 +66,13 @@ Material:
     - _DepthEnd: 17.1
     - _DepthStart: 0
     - _DisplacementAmount: 0.6
-    - _DistortionScale: 7.11
+    - _DistortionScale: 10.2
     - _DistortionVelocity: 0.05
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RippleScale: 2.44
+    - _RippleScale: 0
     m_Colors:
-    - _Color: {r: 0.16862746, g: 0.23946519, b: 0.48235294, a: 0}
+    - _Color: {r: 0.05286579, g: 0.2039244, b: 0.33962262, a: 0}
     - _RipplesCenter: {r: 0, g: 0, b: 0, a: 3.85}
     - _WaveVelocity: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
