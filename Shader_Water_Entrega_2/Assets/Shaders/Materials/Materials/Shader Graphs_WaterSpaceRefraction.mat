@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3984277013120915292
+--- !u!114 &-8939882292948168849
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -34,19 +34,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _HeightMap:
-        m_Texture: {fileID: 2800000, guid: 8375b33131e00b649bba54588e3bcac7, type: 3}
+        m_Texture: {fileID: 2800000, guid: f870ae99bc94e3d40b65d0e0bcb7411f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Heightmap2:
-        m_Texture: {fileID: 2800000, guid: e5b6bd8e95135d74e81ae6d5f05a38ce, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalDistortion:
-        m_Texture: {fileID: 2800000, guid: 2675c131046ae064aaae8a47c79e8988, type: 3}
+        m_Texture: {fileID: 2800000, guid: 45efa551e41f47c498ee5e46f13859e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_b6fa3cf582004440b8254b5060e3c420_Texture_1:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -63,16 +63,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DepthEnd: 17.1
+    - _DepthEnd: 20
     - _DepthStart: 0
-    - _DisplacementAmount: 0.6
-    - _DistortionScale: 10.2
-    - _DistortionVelocity: 0.05
+    - _DisplacementAmount: 1
+    - _DistortionScale: 5
+    - _DistortionVelocity: 0.08
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RippleScale: 0
+    - _RippleScale: 1.12
+    - _Speclar_Mid_Force: 5
+    - _Speclar_Scaler: 5
+    - _Specular_Force: 5
+    - _Specular_Top_Force: 1
+    - _Wave_Normal_Specular_Force: 2
     m_Colors:
-    - _Color: {r: 0.05286579, g: 0.2039244, b: 0.33962262, a: 0}
-    - _RipplesCenter: {r: 0, g: 0, b: 0, a: 5.48}
-    - _WaveVelocity: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _Color: {r: 0.111205064, g: 0.42980063, b: 0.4811321, a: 0}
+    - _RipplesCenter: {r: 0, g: 0, b: 0, a: 1}
+    - _WaveVelocity: {r: 0.1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
