@@ -34,15 +34,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _HeightMap:
-        m_Texture: {fileID: 2800000, guid: f870ae99bc94e3d40b65d0e0bcb7411f, type: 3}
+        m_Texture: {fileID: 2800000, guid: c6c038814c9d45d428ee781b65b5eb20, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Heightmap2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c6c038814c9d45d428ee781b65b5eb20, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalDistortion:
-        m_Texture: {fileID: 2800000, guid: 45efa551e41f47c498ee5e46f13859e6, type: 3}
+        m_Texture: {fileID: 2800000, guid: a803cbbde4411b040943dde9f5089fce, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_b6fa3cf582004440b8254b5060e3c420_Texture_1:
@@ -65,19 +65,19 @@ Material:
     m_Floats:
     - _DepthEnd: 20
     - _DepthStart: 0
-    - _DisplacementAmount: 1
-    - _DistortionScale: 5
-    - _DistortionVelocity: 0.08
+    - _DisplacementAmount: 0.1
+    - _DistortionScale: 20
+    - _DistortionVelocity: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RippleScale: 1.12
+    - _RippleScale: 0
     - _Speclar_Mid_Force: 5
     - _Speclar_Scaler: 5
     - _Specular_Force: 5
-    - _Specular_Top_Force: 1
-    - _Wave_Normal_Specular_Force: 2
+    - _Specular_Top_Force: 0.5
+    - _Wave_Normal_Specular_Force: 5
     m_Colors:
     - _Color: {r: 0.111205064, g: 0.42980063, b: 0.4811321, a: 0}
-    - _RipplesCenter: {r: 0, g: 0, b: 0, a: 1}
-    - _WaveVelocity: {r: 0.1, g: 0, b: 0, a: 0}
+    - _RipplesCenter: {r: 0, g: 0, b: 0, a: 2.03}
+    - _WaveVelocity: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
