@@ -45,8 +45,20 @@ Material:
         m_Texture: {fileID: 2800000, guid: a803cbbde4411b040943dde9f5089fce, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_2786dbfe5f964b0ea6e6cc08f48f7559_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_31b965dcf20f466c9207efa65519022e_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_b6fa3cf582004440b8254b5060e3c420_Texture_1:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_3868d9e637394fe68f7918c01aaab910_Out_0:
+        m_Texture: {fileID: 2800000, guid: 2675c131046ae064aaae8a47c79e8988, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_6cc124e1d11f4972a505a9dbed3b0cc3_Out_0:
@@ -73,9 +85,10 @@ Material:
     - _DepthEnd: 20
     - _DepthStart: 0
     - _DisplacementAmount: 0.3
-    - _DistortionScale: 20
+    - _DistortionScale: 10
     - _DistortionVelocity: 0.1
     - _DrawOrder: 0
+    - _MOVERANGE: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RippleScale: 0
@@ -87,7 +100,7 @@ Material:
     - _Specular_Top_Force: 0
     - _Wave_Normal_Specular_Force: 5
     m_Colors:
-    - _Color: {r: 0.30838373, g: 0.6666609, b: 0.8490566, a: 0}
+    - _Color: {r: 0, g: 0.48990312, b: 0.6320754, a: 0}
     - _RipplesCenter: {r: 0, g: 0, b: 0, a: 2.03}
     - _WaveVelocity: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []

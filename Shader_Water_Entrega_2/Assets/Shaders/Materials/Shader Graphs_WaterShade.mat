@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8283490920858795363
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,11 +20,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_WaterShader Definitive
-  m_Shader: {fileID: -6465566751694194690, guid: 43b24e13ae4825944b0ec1447010ca0b, type: 3}
-  m_ValidKeywords: []
+  m_Name: Shader Graphs_WaterShade
+  m_Shader: {fileID: -6465566751694194690, guid: 91847457a06cb42419cfbdc513d77888, type: 3}
+  m_ValidKeywords:
+  - _MOVERANGE
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -29,7 +43,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalDistortion:
-        m_Texture: {fileID: 2800000, guid: 2675c131046ae064aaae8a47c79e8988, type: 3}
+        m_Texture: {fileID: 2800000, guid: a803cbbde4411b040943dde9f5089fce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_636aab34a5694704be3b07ed5b110d99_Texture_1:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -46,29 +64,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DepthEnd: 0
+    - _DepthEnd: 20
     - _DepthStart: 0
-    - _DisplacementAmount: 0
+    - _DisplacementAmount: 0.4
     - _DistortionScale: 0.34
     - _DistortionVelocity: 0.08
+    - _MOVERANGE: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RippleScale: 0
     m_Colors:
     - _Color: {r: 0.27100387, g: 0.33278888, b: 0.5471698, a: 0}
     - _RipplesCenter: {r: 0, g: 0, b: 0, a: 1}
-    - _WaveVelocity: {r: 0.1, g: 0, b: 0, a: 0}
+    - _WaveVelocity: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &8027689301488764926
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 5
